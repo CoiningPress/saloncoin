@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=saloncoin
+Comment=saloncoin P2P Cryptocurrency
+Comment[fr]=saloncoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=saloncoin, eşten eşe kriptografik sanal para birimi
+Comment[es]=saloncoin, una criptomoneda P2P
+Exec=/usr/bin/saloncoin-qt
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/bitcoin80.xpm
+MimeType=x-scheme-handler/saloncoin;
+Categories=Office;
