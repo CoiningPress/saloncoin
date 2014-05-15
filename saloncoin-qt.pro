@@ -25,17 +25,6 @@ greaterThan(QT_MAJOR_VERSION, 4) {
 #MINIUPNPC_LIB_PATH=C:/deps/upnpc-exe-win32
 #MINIUPNPC_INCLUDE_PATH=c:/deps
 
-BOOST_LIB_SUFFIX=-mgw48-mt-s-1_55
-BOOST_INCLUDE_PATH=E:/deps/boost_1_55_0
-BOOST_LIB_PATH=E:/deps/boost_1_55_0/stage/lib
-BDB_INCLUDE_PATH=E:/deps/db-4.8.30.NC/build_unix
-BDB_LIB_PATH=E:/deps/db-4.8.30.NC/build_unix
-OPENSSL_INCLUDE_PATH=E:/deps/openssl-1.0.1e/include
-OPENSSL_LIB_PATH=E:/deps/openssl-1.0.1e
-MINIUPNPC_INCLUDE_PATH=E:/deps
-MINIUPNPC_LIB_PATH=E:/deps/upnpc
-QRENCODE_INCLUDE_PATH=E:/deps/qrencode-3.3.1
-QRENCODE_LIB_PATH=E:/deps/qrencode-3.3.1/.libs
 
 
 

@@ -953,9 +953,9 @@ int64 GetProofOfWorkReward(int nHeight, int64 nFees, uint256 prevHash)
     if(nHeight <= 201){
         return 16*COIN + nFees;
     }
-    if(nHeight > CUTOFF_HEIGHT)
+    if(nHeight > 14401)
 	{
-		return nMinSubsidy + nFees;
+		return 0*COIN + nFees;
 	}
     return nSubsidy + nFees;
 }
@@ -2138,7 +2138,7 @@ bool CBlock::AcceptBlock()
     }
 
     // Reject block.nVersion < 3 blocks since 95% threshold on mainNet and always on testNet:
-    if (nVersion < 3 && ((!fTestNet && nHeight > 14060) || (fTestNet && nHeight > 0)))
+    if (nVersion < 3 && ((!fTestNet && nHeight > POW_CUTOFF_HEIGHT) || (fTestNet && nHeight > 0)))
         return error("CheckBlock() : rejected nVersion < 3 block");
 
     // Enforce rule that the coinbase starts with serialized block height

@@ -11,7 +11,7 @@
 const std::string CLIENT_NAME("SalonCoin");
 
 // Client version number
-#define CLIENT_VERSION_SUFFIX   "-so-salon-2.1"
+#define CLIENT_VERSION_SUFFIX   "-so-salon-2.3"
 
 
 // The following part of the code determines the CLIENT_BUILD variable.
